@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "8886b8a6c0d31987ddea5b9e25bd02f7891650c967351486fd3cf0fd4d16271e"
+            "sha256": "4ca67a55f8b0c3024a841625e0e2911865f88abe5843932e4f06b4d00133432b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -23,6 +23,14 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==8.0.3"
+        },
+        "colorama": {
+            "hashes": [
+                "sha256:5941b2b48a20143d2267e95b1c2a7603ce057ee39fd88e7329b0c292aa16869b",
+                "sha256:9f47eda37229f68eee03b24b9748937c7dc3868f906e8ba69fbcbdd3bc5dc3e2"
+            ],
+            "markers": "platform_system == 'Windows'",
+            "version": "==0.4.4"
         },
         "flask": {
             "hashes": [
@@ -138,6 +146,14 @@
             ],
             "markers": "python_version >= '3.7'",
             "version": "==60.0.3"
+        },
+        "waitress": {
+            "hashes": [
+                "sha256:29af5a53e9fb4e158f525367678b50053808ca6c21ba585754c77d790008c746",
+                "sha256:69e1f242c7f80273490d3403c3976f3ac3b26e289856936d1f620ed48f321897"
+            ],
+            "index": "pypi",
+            "version": "==2.0.0"
         },
         "werkzeug": {
             "hashes": [
